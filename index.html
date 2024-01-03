@@ -11,13 +11,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script src="./assets/maugallery.js" defer></script> <!-- Rajout de "defer" -->
+	<script src="./assets/scripts.js" defer></script>    <!-- Rajout de "defer" -->
 </head>
 <body>
 <header class="top-header">    <!-- il manque l'élément <header> qui était une <div>  -->
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+	<nav class="nav">   <!-- <nav> au lieu de <div> -->
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -26,7 +26,7 @@
 			<li><a href="https://www.instagram.com/ninacarducci.photo/?hl=fr" class="social-link" target="_blank" rel="noopener"><img src="assets/images/instagram.png" alt="logo instagram"></a></li>
 			<!-- Rajout de rel="noopener" / Lorsqu'on utile target="_blank" dans les balises d'ancrage (<a>), il est recommandé d'inclure également rel="noopener" pour des raisons de sécurité (phishing) et de performances. -->
 		</ul>
-	</div>
+	</nav>
 </header>
 <div id="header">
 
@@ -110,7 +110,7 @@
 		<div class="service">
 			<div class="service__description">
 				<h3>Retouches</h3>
-				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d'un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
 				<h4>50€/photo</h4>

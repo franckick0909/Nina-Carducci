@@ -28,12 +28,8 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="assets/style.css" />
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-      defer></script>
     <script src="./assets/maugallery.js" defer></script>
     <!-- Rajout de "defer" -->
     <script src="./assets/scripts.js" defer></script>
@@ -136,7 +132,7 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img srcset="./assets/images/nina.webp" alt="photo de Nina" />
+        <img srcset="./assets/images/nina.webp" alt="photo de Nina" sizes="(max-width: 500px)" width="500" />     
       </div>
       <div id="about-me">
         <h2 class="about-me__title">A propos de moi</h2>
@@ -165,76 +161,67 @@
         <div class="gallery">
           <!-- .gallery display: none; directement dans le css  -->
           <img
-            loading="lazy"
             data-gallery-tag="Concert"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp
-            "
+            srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"    
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Concert" />
           <img
-            loading="lazy"
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp
-            "
+            srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"          
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Entreprises" />
           <img
-            loading="lazy"
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp
-            "
+            srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"            
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Entreprises" />
           <img
-            loading="lazy"
             data-gallery-tag="Mariages"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp
-            "
+            srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"             
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Mariages" />
           <img
-            loading="lazy"
             data-gallery-tag="Portrait"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp
-            "
+            srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"             
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Portrait" />
           <img
-            loading="lazy"
             data-gallery-tag="Mariages"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp
-            "
+            srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"    
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Mariages" />
           <img
-            loading="lazy"
             data-gallery-tag="Portrait"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp
-            "
+            srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Portrait" />
           <img
-            loading="lazy"
             data-gallery-tag="Concert"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp
-            "
+            srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" 
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Concert" />
           <img
-            loading="lazy"
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            srcset="
-              ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp
-            "
+            srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+            sizes="(max-width: 400px)" width="400"
+            loading="lazy"
             alt="Entreprises" />
         </div>
       </div>
